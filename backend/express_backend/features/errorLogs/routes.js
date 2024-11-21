@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { execFileSync } = require('child_process');
-const db = require('../../../db');
+const db = require('../../db');
 const fs = require('fs').promises;
 const axios = require('axios');
 const express = require('express');
